@@ -1,0 +1,292 @@
+body{
+background-color: white;
+margin:0px;
+font-size: 12px;
+}
+
+.text{
+	padding:10px;
+}
+
+h1{
+	color: #f6602b;
+	font-family: "Montserrat";
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	padding-top:5px;
+	font-size:65px;
+	line-height: 60px;
+
+}
+
+h2 {
+color:black;
+font-family: 'Fjalla One', Sans-Serif;
+margin-right: auto;
+margin-left: auto;
+text-align: center;
+font-size: 28px;
+padding: 0px, 40px, 0px, 40px;
+
+}
+
+p {
+text-align: center;
+	margin:auto;
+	font-family: "Montserrat", sans-serif;
+	padding-bottom:15px;
+	font-size: 18px;
+	line-height: 24px;
+	color:black;
+	padding-top:15px;
+	padding-left:10px;
+	padding-right:10px;
+}
+
+
+.content h2 {
+color:black;
+font-family: 'Fjalla One', sans-serif;
+margin-right: auto;
+margin-left: auto;
+text-align: left;
+font-size: 24px;
+color:#f44f89;
+
+}
+
+.content h3{
+color:black;
+font-family: 'Fjalla One', sans-serif;
+margin-right: auto;
+margin-left: auto;
+text-align: left;
+font-size: 24px;
+}
+
+.content h3 span{
+	color:#f44f89;
+	font-size: 32px;
+	line-height: 34px;
+font-family: "Montserrat", Sans-Serif;
+}
+
+
+.footer{
+	background-color: #0958a0;
+	padding-top:-10px;
+
+}
+
+
+A:link {text-decoration: none;
+color:white;}
+A:visited {text-decoration: none;
+color:white;}
+A:active {text-decoration: none;
+color:white;}
+A:hover {
+	text-decoration: none; 
+	color: #f44f89;}
+
+.footer h2 span {
+color: white;
+font-size: 30px;
+text-align: center;
+padding-left:10px;
+padding-right:10px;
+font-family: "Montserrat", sans-serif;
+}
+
+.footer h2{
+	padding-top:40px;
+	color:white;
+	font-family: "Montserrat", sans-serif;
+}
+
+
+.footer p {
+	text-align: center;
+	margin:auto;
+	font-family: "Montserrat", sans-serif;
+	padding-bottom:50px;
+	font-size: 20px;
+	line-height: 26px;
+	color:#39c0ea;
+	letter-spacing: .5px;
+}
+
+.imgs{
+	text-align: center;
+}
+
+.imgs img{
+	display: inline-block;
+	max-width: 100%;
+	height:auto;
+}
+
+
+
+
+
+*, *:after, *:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+[class*='col-'] {
+	float: left;
+	padding-right: 20px; /* column-space */
+}
+
+.grid {
+	width: 100%;
+	max-width: 1140px;
+	min-width: 755px;
+	margin: 0 auto;
+	overflow: hidden;
+	padding-top:-10px;
+}
+
+.grid:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.grid-pad {
+	padding-top: 5px;
+	padding-left: 10px; /* grid-space to left */
+	padding-right: 0px; /* grid-space to right: (grid-space-left - column-space) e.g. 20px-20px=0 */
+}
+
+.push-right {
+	float: right;
+}
+
+/* Content Columns */
+
+
+.col-6-12 {
+	width: 50%;
+	padding:0px 10px 5px 10px;
+}
+
+.col-6-12 {
+	width: 50%;
+	padding:0px 10px 5px 10px;
+}
+
+@media screen and (max-width: 1150px){
+	h2{
+		font-size: 22px;
+	}
+	
+}
+
+@media screen and (min-width: 780px){
+	img{
+		float: right;
+		clear: both;
+	}
+}
+
+@media screen and (max-width: 755px){
+.content h3 {
+	text-align: center;
+
+}
+
+.content .imgs{
+	margin-left:auto;
+	margin-right:auto;
+	width:300px;
+}
+
+p{
+	font-size: 16px;
+	line-height: 18px;
+}
+}
+
+
+@media handheld, only screen and (max-width: 750px) {
+	.grid {
+		width: 100%;
+		min-width: 0;
+		margin-left: 0px;
+		margin-right: 0px;
+		padding-left: 10px; /* grid-space to left */
+		padding-right: 10px; /* grid-space to right: (grid-space-left - column-space) e.g. 20px-10px=10px */
+	}
+	
+	[class*='col-'] {
+		width: auto;
+		float: none;
+		margin-left: 0px;
+		margin-right: 0px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		padding-left: 0px;
+		padding-right: 10px; /* column-space */
+	}
+h1 h2{
+	padding-right:15px;
+	padding-left:15px;
+}
+
+.content .imgs{
+	width:300px;
+}
+
+p{
+	font-size: 14px;
+	line-height: 16px;
+}
+.imgs{
+	text-align: center;
+}
+
+.imgs img{
+	display: inline-block;
+	max-width: 100%;
+	height:auto;
+}
+	
+	
+	
+	/* Mobile Layout */
+	
+	[class*='mobile-col-'] {
+		float: left;
+		margin-left: 0px;
+		margin-right: 0px;
+		margin-top: 0px;
+		margin-bottom: 10px;
+		padding-left: 0px;
+		padding-right: 10px; /* column-space */
+		padding-bottom: 0px;
+	}
+	
+	
+	}
+
+
+	.mobile-col-6-12 {
+		width: 50%;
+	}
+
+	.mobile-col-6-12 {
+		width: 50%
+	}
+	
+	.hide-on-mobile {
+		display: none !important;
+		width: 0;
+		height: 0;
+	}
+}
